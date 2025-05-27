@@ -19,7 +19,7 @@ jobs:
       - name: Deploy to CodeDeploy
         uses: webfactory/create-aws-codedeploy-deployment@v1
         with:
-          application-name: MyAppName
+          application-name: cicdsample
           deployment-group: MyDeploymentGroup
           deployment-config-name: CodeDeployDefault.AllAtOnce
           bundle-type: zip
